@@ -17,9 +17,12 @@ def get_color(color_number=4):
 # ❌ ⬆ DON'T CHANGE THE CODE ABOVE ⬆ ❌
 
 def get_allStudentColors():
-    example_color = get_color(1)
+    example_color = get_color(random.randrange(0, 4))
     students_array = []
     # ✅ ↓ your loop here ↓ ✅
-    
 
+    for i in range(10):
+        students_array.insert(i, example_color)
+
+    return students_array
 print(get_allStudentColors())
