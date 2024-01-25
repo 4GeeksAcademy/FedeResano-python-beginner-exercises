@@ -1,6 +1,5 @@
 def start_counting():
-	sec = range(12)
-	for i in sec:
+	for i in range(12):
 		print(i)
 	return i
 

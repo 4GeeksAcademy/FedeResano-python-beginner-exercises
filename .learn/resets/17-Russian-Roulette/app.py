@@ -8,6 +8,7 @@ def spin_chamber():
 
 # ❌ ⬆ DON'T CHANGE THE CODE ABOVE ⬆ ❌
 def fire_gun():
+	# ✅ ↓ your code here ↓ ✅
    bulletChamber = spin_chamber()
    endMessage = "Keep playing!"
 
